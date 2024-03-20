@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clr-fix {
+  clear: both;
+}
+img {
+  width: 100%;
+}
+/* Nav Section */
+.nav {
+  overflow: hidden;
+}
+.nav-container {
+  color: aliceblue;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.nav-container .nav-item {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.nav-image img {
+  width: 50%;
+  margin-top: 10px;
+}
+.nav-list {
+  margin-left: 400px;
+}
+.nav-list li {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  font-family: "Alegreya Sans";
+}
+/* End Nav Section */
+/* Home Section */
+.home {
+  background-image: url(/images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.home-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+}
+.home-item {
+  color: azure;
+  text-align: center;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+}
+.home-item p {
+  font-size: 22px;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.home-item h1 {
+  font-family: "Alegreya SC", serif;
+  font-size: 76px;
+  font-weight: 400;
+}
+.home-btns {
+  margin-top: 50px;
+  height: 100px;
+}
+.home-item .btn-1,
+.home-item .btn-2 {
+  padding: 15px 28px;
+  color: azure;
+  border-radius: 5px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.home-item .btn-1 {
+  background-color: rgba(142, 119, 84, 1);
+}
+.home-item .btn-2 {
+  background-color: rgba(142, 119, 84, 0);
+  border: 2px solid;
+}
+.home-item .home-slider {
+  width: 25px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 48%;
+  margin: auto;
+}
+.home-item .home-slider .slider-dot{
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  margin: 15px auto 0 auto;
+  border-radius: 50%;
+}
