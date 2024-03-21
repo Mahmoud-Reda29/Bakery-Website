@@ -111,61 +111,100 @@ img {
   margin: auto;
   padding-top: 80px;
 }
-.who-item{
+.who-item {
   display: inline-block;
 }
-.who-we-are-img{
+.who-we-are-img {
   width: 45%;
 }
-.who-we-are-img img{
+.who-we-are-img img {
   width: 85%;
 }
-.who-we-are-content{
-  width:50%;
+.who-we-are-content {
+  width: 50%;
   vertical-align: top;
 }
-.who-we-are-content h2{
+.who-we-are-content h2 {
   margin: 40px 0 30px 0;
   font-family: "Alegreya SC", serif;
-  font-size: 30px; 
+  font-size: 30px;
 }
- .who-we-are-content ul{
+.who-we-are-content ul {
   margin-top: 15px;
   list-style: none;
 }
-.who-we-are-content ul li{
-  margin-top: 20px ;
- } 
-.who-we-are-content img{
+.who-we-are-content ul li {
+  margin-top: 20px;
+}
+.who-we-are-content img {
   width: 40px;
   height: 40px;
   vertical-align: middle;
   border: whitesmoke 2px solid;
   border-radius: 50%;
   margin-right: 15px;
-} 
+}
 /* End Who are we? Section */
 
 /* Start Location Section */
-.location{
-  width: 100%;
-  margin-top: 50px;
-  background-color: #F8F8F8;
+.location {
+  background-color: #f8f8f8;
 }
-.location-container{
-  width: 90%;
+.location-container {
+  width: 80%;
   margin: auto;
+  padding: 50px 0;
 }
-.loc-item{
+.loc-item {
   display: inline-block;
 }
-.location-content{
-  width:50%;
+.location-content {
+  width: 40%;
   padding-top: 60px;
+  vertical-align: top;
 }
-.location-img{
+.location-content p {
+  margin-top: 20px;
+  line-height: 1.86em;
+}
+.location-content h2 {
+  color: rgb(48, 48, 48);
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.location-img {
   width: 50%;
+  margin-left: 100px;
 }
-.location-img img{
-  width: 85%;
+.location-img img {
+  width: 100%;
+}
+/* End Location Section */
+/* Start Baking Section */
+.baking-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.baking-container h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.baking-container p {
+  margin-top: 20px;
+}
+.baking-item {
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+.baking-item img {
+  width: 100%;
+}
+.baking-item h4 {
+  margin: 20px 0;
 }
