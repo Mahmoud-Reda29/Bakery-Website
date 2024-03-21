@@ -92,13 +92,80 @@ img {
   width: 25px;
   height: 50px;
   border: 2px solid;
-  border-radius: 48%;
+  border-radius: 35%;
   margin: auto;
 }
-.home-item .home-slider .slider-dot{
+.home-item .home-slider .slider-dot {
   width: 10px;
   height: 10px;
   border: 2px solid;
   margin: 15px auto 0 auto;
   border-radius: 50%;
+}
+/* end Home Section */
+
+/* Start Who are we? Section */
+
+.who-we-are-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+}
+.who-item{
+  display: inline-block;
+}
+.who-we-are-img{
+  width: 45%;
+}
+.who-we-are-img img{
+  width: 85%;
+}
+.who-we-are-content{
+  width:50%;
+  vertical-align: top;
+}
+.who-we-are-content h2{
+  margin: 40px 0 30px 0;
+  font-family: "Alegreya SC", serif;
+  font-size: 30px; 
+}
+ .who-we-are-content ul{
+  margin-top: 15px;
+  list-style: none;
+}
+.who-we-are-content ul li{
+  margin-top: 20px ;
+ } 
+.who-we-are-content img{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border: whitesmoke 2px solid;
+  border-radius: 50%;
+  margin-right: 15px;
+} 
+/* End Who are we? Section */
+
+/* Start Location Section */
+.location{
+  width: 100%;
+  margin-top: 50px;
+  background-color: #F8F8F8;
+}
+.location-container{
+  width: 90%;
+  margin: auto;
+}
+.loc-item{
+  display: inline-block;
+}
+.location-content{
+  width:50%;
+  padding-top: 60px;
+}
+.location-img{
+  width: 50%;
+}
+.location-img img{
+  width: 85%;
 }
